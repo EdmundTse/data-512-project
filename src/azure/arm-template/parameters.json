@@ -1,0 +1,27 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "serverfarms_WestUS2Plan_name": {
+            "value": null
+        },
+        "sites_snapbusrealtime_func_name": {
+            "value": null
+        },
+        "storageAccounts_busdata_name": {
+            "value": null
+        },
+        "components_snapbusrealtime_func_name": {
+            "value": null
+        },
+        "config_web_name": {
+            "value": null
+        },
+        "alertrules_Failure_Anomalies___snapbusrealtime_func_name": {
+            "value": null
+        },
+        "hostNameBindings_snapbusrealtime_func.azurewebsites.net_name": {
+            "value": null
+        }
+    }
+}

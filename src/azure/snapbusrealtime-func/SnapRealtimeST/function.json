@@ -1,0 +1,17 @@
+{
+  "bindings": [
+    {
+      "name": "myTimer",
+      "type": "timerTrigger",
+      "direction": "in",
+      "schedule": "0 * * * * *"
+    },
+    {
+      "type": "blob",
+      "name": "outputBlob",
+      "path": "bus-realtime-snapshot/40/{DateTime}.pb",
+      "connection": "AzureWebJobsStorage",
+      "direction": "out"
+    }
+  ]
+}
